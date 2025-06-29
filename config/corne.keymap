@@ -46,6 +46,7 @@
         };
 
         Arrows {
+            display-name = "Arrows";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans     &kp UP_ARROW  &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans      &kp LEFT   &kp DOWN      &kp RIGHT  &trans  &trans
@@ -61,7 +62,7 @@
             // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
-            display-name = "Num & Sym";
+            display-name = "Num/Sym";
             bindings = <
 &kp TILDE  &kp LS(EXCL)  &kp LS(AT)  &kp HASH  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp MINUS
 &kp GRAVE  &kp N1        &kp N2      &kp N3    &kp N4        &kp N5           &kp N6         &kp N7        &kp N8        &kp N9        &kp N0        &kp EQUAL
